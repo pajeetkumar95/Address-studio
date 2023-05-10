@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #159957, #155799);
+}
+
+.wrapperleft img {
+    width: 100px;
+}
+
+.wrapperright .sidemenu {
+    font-size: 1.5rem;
+}
+
+.sidemenu a {
+    margin-right: 2rem;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidelist ul {
+    list-style: none;
+    margin: 1rem 0rem;
+}
+
+.sidelist a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidelist ul li {
+    margin: 1.5rem 0rem;
+    text-align: center;
+}
+
+.sidelist i {
+    position: absolute;
+    top: 0.50rem;
+    right: 1rem;
+}
+
+.sidelist {
+    background-color: rgb(222, 186, 174);
+    padding: 1.5rem 0;
+    width: 250px;
+    font-size: 1.5rem;
+    position: relative;
+    display: none;
+}
+
+.backimg img {
+    height: 100vh;
+    width: 100%;
+}
+
+.manpeople {
+    height: 100vh;
+    width: 100%;
+}
+
+.manheading {
+    margin: 0 2rem;
+}
+
+.manphoto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.manphoto img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.manheading {
+    text-align: center;
+}
+
+.manphotoleft {
+    width: 30%;
+    border: 1px groove;
+    border-radius: 30px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.manphotoright {
+    width: 30%;
+    border: 1px groove;
+    border-radius: 30px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.manphotoleft h3,
+.manphotoright h3 {
+    padding: 1rem 0;
+}
